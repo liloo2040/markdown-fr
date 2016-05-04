@@ -65,3 +65,62 @@ test
 ---
 
 
+#Titres
+
+Alors que nous avons débuté l'écriture d'un document markdown, nous devons ajouter un titre et des sous-titres.
+
+Markdown possède deux types de titres, Setext et atx.
+
+Les titres du style Setext sont "soulignés" et utilisent de multiples signes égal (pour les titres de premier niveau) et des tirets (pour les titres de second niveau). Par exemple:
+
+```
+Voici un titre H1
+=================
+
+Voici un titre H2
+-----------------
+```
+
+N'importe quel nombre de caractères = ou - souligné fonctionnera.
+
+Les titres de type Atx utilisent de 1 à 6 au tout début de la ligne, cela correspond aux niveaux 1 à 6. Par exemple:
+
+``` 
+# Voici un titre H1 
+## Voici un titre H2 
+### Voici un titre H3 
+```
+
+Vous avez également la possibilité de "fermer" les balises atx des titres. C'est purement esthétique - vous pouvez l'utiliser si vous pensez que c'est mieux. Les caractères diez de la balise fermante n'ont pas besoin d'être identiques à celles de la balise ouvrante. (Le nombre de diez détermine le niveau du titre) :
+
+```
+# Voici un titre H1 #
+## Voici un titre H2 ##
+### Voici un titre H3 ######
+```
+
+---
+Voici un quizz concernant les titres markdown.
+
+Sélectionnez le titre valide:
+- [x] `# hello`
+- [ ] `#hello`
+
+> Les titres nécessitent l'utilisation d'un espace entre le caractère diez et le texte.
+
+Sélectionnez le titre valide:
+- [ ]
+```
+test
+########
+```
+- [x]
+```
+test
+=======
+```
+
+> Seuls "=" et "-" sont acceptés pour souligner un titre.
+
+---
+
